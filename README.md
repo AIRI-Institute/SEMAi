@@ -24,7 +24,7 @@ For trainig the model you can use Jupyter Notebooks [SEMA-1D_finetuning](https:/
 
 ## Inference
 You can use your model weights or download ours from the [link](). <br />
-Run inference using Jupyter Notebooks [SEMA-1D_finetuning](https://github.com/AIRI-Institute/SEMAi/blob/main/SEMA_1D/SEMA-1D_inference.ipynb) or [SEMA-3D_finetuning](https://github.com/AIRI-Institute/SEMAi/blob/main/SEMA_3D/SEMA-3D_inference.ipynb).
+Run inference using Jupyter Notebooks [SEMA-1D_inference](https://github.com/AIRI-Institute/SEMAi/blob/main/SEMA_1D/SEMA-1D_inference.ipynb) or [SEMA-3D_inference](https://github.com/AIRI-Institute/SEMAi/blob/main/SEMA_3D/SEMA-3D_inference.ipynb).
 
 
 
