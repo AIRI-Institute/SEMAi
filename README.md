@@ -7,8 +7,8 @@ SEMA is also availble via [web-interface](http://sema.airi.net/).
 ### Disclaimer:
 This code is provided under MIT License
 
-## Dataset
-The whole dataset presents as an archived csv-tabel in data folder (dataset.csv.tar.gz). Dataset contains following columns:
+## Data set
+The entire data set can be downloaded from the [link](https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru/SEMA_weights/dataset.csv.tar.gz).<br /> Dataset contains following columns:
 
 * **pdb_id** &#8212; identificator in the [PDB database](https://www.rcsb.org)
 * **resi** &#8212; the residue position in the PDB structure
@@ -18,6 +18,13 @@ The whole dataset presents as an archived csv-tabel in data folder (dataset.csv.
 * **fab_chains** &#8212; names of the antibody chains in the PDB structure
 * **contact_number_R1=i_R2=j** &#8212; contact number values calcualted as the number of antibody residues in contact with any atom of antigen residues within the distance radius R1. Residues between R1 and R2 have a zero contact number. Residues, which located outside R2  distance radius, have a '-100' value. 
 
+## Environment creation
+Python 3.8 is required.
+```pip3 install virtualenv
+virtualenv sema_env
+source sema_env/bin/activate
+pip install -r requirements.txt
+```
 
 ## Training the models
 For trainig the model you can use Jupyter Notebooks [SEMA-1D_finetuning](https://github.com/AIRI-Institute/SEMAi/blob/main/SEMA_1D/SEMA-1D_finetuning.ipynb) or [SEMA-3D_finetuning](https://github.com/AIRI-Institute/SEMAi/blob/main/SEMA_3D/SEMA-3D_finetuning.ipynb).
