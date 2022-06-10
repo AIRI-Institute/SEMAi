@@ -7,8 +7,8 @@ SEMA is also availble via [web-interface](http://sema.airi.net/).
 ### Disclaimer:
 This code is provided under MIT License
 
-## Dataset
-The whole dataset presents as an archived csv-tabel in data folder (dataset.csv.tar.gz). Dataset contains following columns:
+## Data set
+The entire data set can be downloaded from the [link](https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru/SEMA_weights/dataset.csv.tar.gz).<br /> Dataset contains following columns:
 
 * **pdb_id** &#8212; identificator in the [PDB database](https://www.rcsb.org)
 * **resi** &#8212; the residue position in the PDB structure
