@@ -43,8 +43,7 @@ wget -O sema_3d_cn_atom_r1_8.0_r2_18.0_2.pth https://bioinformatics-kardymon.obs
 wget -O sema_3d_cn_atom_r1_8.0_r2_18.0_3.pth https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru/SEMA_weights/sema_3d_cn_atom_r1_8.0_r2_18.0_3.pt 
 wget -O sema_3d_cn_atom_r1_8.0_r2_18.0_4.pth https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru/SEMA_weights/sema_3d_cn_atom_r1_8.0_r2_18.0_4.pt
 ```
-   
-6. Unarchive files: `tar -cvzf .tar.gz`
+ 
 
 Next, run inference using Jupyter Notebooks [SEMA-1D_inference](https://github.com/AIRI-Institute/SEMAi/blob/main/SEMA_1D/SEMA-1D_inference.ipynb) or [SEMA-3D_inference](https://github.com/AIRI-Institute/SEMAi/blob/main/SEMA_3D/SEMA-3D_inference.ipynb).
 
