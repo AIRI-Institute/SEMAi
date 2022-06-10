@@ -27,11 +27,12 @@ Prepare your model weights or download ours:<br />
 1. Create direcrory "models": `mkdir models`.
 2. Go into directory: `cd models`
 4. Download weights for SEMA-1D:
-```wget -O sema_1d_ft_cn_atom_r1_8.0_r2_16.0_0.pth https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru/SEMA_weights/sema_1d_ft_cn_atom_r1_8.0_r2_16.0_0.pth 
-   wget -O sema_1d_ft_cn_atom_r1_8.0_r2_16.0_1.pth https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru/SEMA_weights/sema_1d_ft_cn_atom_r1_8.0_r2_16.0_1.pth
-   wget -O sema_1d_ft_cn_atom_r1_8.0_r2_16.0_2.pth https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru/SEMA_weights/sema_1d_ft_cn_atom_r1_8.0_r2_16.0_2.pth
-   wget -O sema_1d_ft_cn_atom_r1_8.0_r2_16.0_3.pth https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru/SEMA_weights/sema_1d_ft_cn_atom_r1_8.0_r2_16.0_3.pth
-   wget -O sema_1d_ft_cn_atom_r1_8.0_r2_16.0_4.pth https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru/SEMA_weights/sema_1d_ft_cn_atom_r1_8.0_r2_16.0_4.pth
+```
+wget -O sema_1d_ft_cn_atom_r1_8.0_r2_16.0_0.pth https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru/SEMA_weights/sema_1d_ft_cn_atom_r1_8.0_r2_16.0_0.pth 
+wget -O sema_1d_ft_cn_atom_r1_8.0_r2_16.0_1.pth https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru/SEMA_weights/sema_1d_ft_cn_atom_r1_8.0_r2_16.0_1.pth
+wget -O sema_1d_ft_cn_atom_r1_8.0_r2_16.0_2.pth https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru/SEMA_weights/sema_1d_ft_cn_atom_r1_8.0_r2_16.0_2.pth
+wget -O sema_1d_ft_cn_atom_r1_8.0_r2_16.0_3.pth https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru/SEMA_weights/sema_1d_ft_cn_atom_r1_8.0_r2_16.0_3.pth
+wget -O sema_1d_ft_cn_atom_r1_8.0_r2_16.0_4.pth https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru/SEMA_weights/sema_1d_ft_cn_atom_r1_8.0_r2_16.0_4.pth
    ```
    
 or SEMA-3D:
