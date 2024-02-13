@@ -22,7 +22,7 @@ For trainig the model you can use Jupyter Notebooks [SEMA-1D_finetuning](?) or [
 
 ## Inference
 Prepare your model weights or download ours:<br />
-1. Create direcrory *models*: `mkdir models`.
+1. Create directory *models*: `mkdir models`.
 2. Go into the directory: `cd models`
 4. Download weights for SEMA-1D:
 <!-- ```
