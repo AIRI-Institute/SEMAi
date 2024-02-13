@@ -1,3 +1,4 @@
 data
 models
 compare_models
+epitopes_comparison/best_model.pt
