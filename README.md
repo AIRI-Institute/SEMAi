@@ -3,9 +3,6 @@ SEMA (Spatial Epitope Modelling with Artificial intelligence) is a set of resear
 
 SEMA is also availble via [web-interface](http://sema.airi.net/).
 
-### Disclaimer:
-This code is provided under MIT License
-
 ## Instalation
 This script creates new environment `sema_env` 
 ```
@@ -26,6 +23,9 @@ Code and datset and additional README is stored at `./epitopes_comparison/` fold
 
 # Foldseek
 We used [SaProt](https://github.com/westlake-repl/SaProt) as base model for SEMA-3D and epitope comparison model. This model utilizes 3Di tokens, prodused by [Foldseek](https://github.com/steineggerlab/foldseek). To create 3Di tokens we used `foldseek_util.py` script from [SaProt](https://github.com/westlake-repl/SaProt?tab=readme-ov-file#convert-protein-structure-into-structure-aware-sequence) foldseek binary file. These files are stored at `./saprot_utils` folder 
+
+### Disclaimer:
+This code is provided under MIT License
 
 
 
