@@ -21,7 +21,8 @@ Code and datset and additional README is stored at `./glycosylation_prediction/`
 The model is trained to identify local structural similarities within proteins, based on the non-linear transformation of multiplication of the embeddings of PLM with geometric modalities. \
 Code and datset and additional README is stored at `./epitopes_comparison/` folder
 
-# Foldseek
+
+### Foldseek
 We used [SaProt](https://github.com/westlake-repl/SaProt) as base model for SEMA-3D and epitope comparison model. This model utilizes 3Di tokens, prodused by [Foldseek](https://github.com/steineggerlab/foldseek). To create 3Di tokens we used `foldseek_util.py` script from [SaProt](https://github.com/westlake-repl/SaProt?tab=readme-ov-file#convert-protein-structure-into-structure-aware-sequence) foldseek binary file. These files are stored at `./saprot_utils` folder 
 
 ### Disclaimer:
