@@ -11,7 +11,8 @@ CUDA_VISIBLE_DEVICES=0 python train.py
 ```
 
 ## Inference
-For inference using a pre-trained model run `epi_compare_inference.ipynb`
+- Download pre-trained model weigths: `wget -O best_model.pt https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru/SEMA_2.0/epitopes_comparison/best_model.pt` 
+- For inference using a pre-trained model run `epi_compare_inference.ipynb`
 
 ## Folder overview
 * `small_dataset.tar.gz` contains zipped files for the dataset the model was trained on
@@ -23,7 +24,7 @@ For inference using a pre-trained model run `epi_compare_inference.ipynb`
 * `train.py` contains core code to train the model
 * `saprot_epi_comparison_model.py` contains model class
 * `saprot_dataset.py` contains dataset class
-* `best_model.pt` contains weights of the best-performing model
+<!-- * `best_model.pt` contains weights of the best-performing model -->
 * `epi_compare_inference.ipynb` is a jupyter notebook with tutorial on how to use a pre-trained model for inference
 * `inference_examples/` folder contains examples used in the tutorial
 
