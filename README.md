@@ -9,7 +9,6 @@ This code is provided under MIT License
 ## Instalation
 This script creates new environment `sema_env` 
 ```
-cd SEMAi
 ./setup.sh
 ```
 
