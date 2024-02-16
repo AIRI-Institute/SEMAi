@@ -28,6 +28,3 @@ CUDA_VISIBLE_DEVICES=0 python train.py
 * `epi_compare_inference.ipynb` is a jupyter notebook with tutorial on how to use a pre-trained model for inference
 * `inference_examples/` folder contains examples used in the tutorial
 * `dataset_genetration/` script and additinal information to create dataset from set of pdbs
-
-## dataset generation
-Script and additinal information is stored at `./dataset_genetration` folder
