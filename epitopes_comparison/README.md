@@ -27,4 +27,4 @@ CUDA_VISIBLE_DEVICES=0 python train.py
 <!-- * `best_model.pt` contains weights of the best-performing model -->
 * `epi_compare_inference.ipynb` is a jupyter notebook with tutorial on how to use a pre-trained model for inference
 * `inference_examples/` folder contains examples used in the tutorial
-* `dataset_genetration/` script and additinal information to create dataset from set of pdbs
+* `dataset_genetration/` code and additinal information to create dataset from set of pdbs
