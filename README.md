@@ -24,7 +24,7 @@ Code, datset and additional README is stored at `./epitopes_comparison/` folder
 ## Notes
 
 ### Foldseek
-We used [SaProt](https://github.com/westlake-repl/SaProt) as base model for SEMA-3D and epitope comparison model. This model utilizes 3Di tokens, prodused by [Foldseek](https://github.com/steineggerlab/foldseek). To create 3Di tokens we used `foldseek_util.py` script from [SaProt](https://github.com/westlake-repl/SaProt?tab=readme-ov-file#convert-protein-structure-into-structure-aware-sequence) foldseek binary file. These files are stored at `./saprot_utils` folder 
+We used [SaProt](https://github.com/westlake-repl/SaProt) as base model for SEMA-3D and epitope comparison model. This model utilizes 3Di tokens, prodused by [Foldseek](https://github.com/steineggerlab/foldseek). To create 3Di tokens we used `foldseek_util.py` script from [SaProt](https://github.com/westlake-repl/SaProt?tab=readme-ov-file#convert-protein-structure-into-structure-aware-sequence) and foldseek binary file. These files are stored at `./saprot_utils` folder 
 
 ### Disclaimer:
 This code is provided under MIT License:
