@@ -1,4 +1,5 @@
-data
-models
-compare_models
-epitopes_comparison/best_model.pt
+epitopes_comparison/models/*
+glycosylation_prediction/models/*
+epitopes_prediction/models/*
+epitopes_prediction/dataset_generation/PDB_blast_db/*
+saprot_utils/__pycache__/*
