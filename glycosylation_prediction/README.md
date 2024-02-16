@@ -1,5 +1,5 @@
 ## Data
-Download the train dataset:
+Download train dataset:
 ```
 wget -O data/Nglyco_train.pkl https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru/SEMA_2.0/glycosylation_prediction/data/Nglyco_train.pkl
 ```
