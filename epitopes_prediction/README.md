@@ -26,13 +26,13 @@ Prepare your model weights or download ours:<br />
 1. Create directory *models*: `mkdir models`.
 2. Go into the directory: `cd models`
 4. Download weights for SEMA-1D (ESM3B model):
-<!-- ```
-wget -O sema_1d_ft_cn_atom_r1_8.0_r2_16.0_0.pth https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru/SEMA_weights/sema_1d_ft_cn_atom_r1_8.0_r2_16.0_0.pth 
-wget -O sema_1d_ft_cn_atom_r1_8.0_r2_16.0_1.pth https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru/SEMA_weights/sema_1d_ft_cn_atom_r1_8.0_r2_16.0_1.pth
-wget -O sema_1d_ft_cn_atom_r1_8.0_r2_16.0_2.pth https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru/SEMA_weights/sema_1d_ft_cn_atom_r1_8.0_r2_16.0_2.pth
-wget -O sema_1d_ft_cn_atom_r1_8.0_r2_16.0_3.pth https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru/SEMA_weights/sema_1d_ft_cn_atom_r1_8.0_r2_16.0_3.pth
-wget -O sema_1d_ft_cn_atom_r1_8.0_r2_16.0_4.pth https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru/SEMA_weights/sema_1d_ft_cn_atom_r1_8.0_r2_16.0_4.pth
-   ``` -->
+```
+wget -O sema_1d_ESM2_0_3B.pth https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru/SEMA_1D_weigths/sema_1d_ESM2_0_3B.pth 
+wget -O sema_1d_ESM2_1_3B.pth https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru/SEMA_1D_weigths/sema_1d_ESM2_1_3B.pth 
+wget -O sema_1d_ESM2_2_3B.pth https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru/SEMA_1D_weigths/sema_1d_ESM2_2_3B.pth 
+wget -O sema_1d_ESM2_3_3B.pth https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru/SEMA_1D_weigths/sema_1d_ESM2_3_3B.pth 
+wget -O sema_1d_ESM2_4_3B.pth https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru/SEMA_1D_weigths/sema_1d_ESM2_4_3B.pth 
+```
    
 or SEMA-3D:
 ```
@@ -44,7 +44,7 @@ wget -O sema_3d_4.pth https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sberclo
 ```
 
 
-Next, run inference using Jupyter Notebooks [SEMA-1D_inference](https://github.com/AIRI-Institute/SEMAi/blob/main/epitopes_prediction/SEMA_1D/SEMA-1D_inference.ipynb.ipynb) or [SEMA-3D_inference](https://github.com/AIRI-Institute/SEMAi/blob/main/epitopes_prediction/SEMA_3D/SEMA-3D_inference.ipynb).
+Next, run inference using Jupyter Notebooks [SEMA-1D_inference](https://github.com/AIRI-Institute/SEMAi/blob/main/epitopes_prediction/SEMA_1D/SEMA-1D_inference.ipynb.ipynb) (ESM2-3B part) or [SEMA-3D_inference](https://github.com/AIRI-Institute/SEMAi/blob/main/epitopes_prediction/SEMA_3D/SEMA-3D_inference.ipynb).
 
 
 ## dataset generation
