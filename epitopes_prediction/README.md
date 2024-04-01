@@ -27,11 +27,11 @@ Prepare your model weights or download ours:<br />
 2. Go into the directory: `cd models`
 4. Download weights for SEMA-1D (ESM3B model):
 ```
-wget -O sema_1d_ESM2_0_3B.pth https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru/SEMA_1D_weigths/sema_1d_ESM2_0_3B.pth 
-wget -O sema_1d_ESM2_1_3B.pth https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru/SEMA_1D_weigths/sema_1d_ESM2_1_3B.pth 
-wget -O sema_1d_ESM2_2_3B.pth https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru/SEMA_1D_weigths/sema_1d_ESM2_2_3B.pth 
-wget -O sema_1d_ESM2_3_3B.pth https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru/SEMA_1D_weigths/sema_1d_ESM2_3_3B.pth 
-wget -O sema_1d_ESM2_4_3B.pth https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru/SEMA_1D_weigths/sema_1d_ESM2_4_3B.pth 
+wget -O sema_1d_ESM2_0_3B.pth https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru/SEMA_2.0/epitopes_prediction/SEMA_1D_weigths/sema_1d_ESM2_0_3B.pth 
+wget -O sema_1d_ESM2_1_3B.pth https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru/SEMA_2.0/epitopes_prediction/SEMA_1D_weigths/sema_1d_ESM2_1_3B.pth 
+wget -O sema_1d_ESM2_2_3B.pth https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru/SEMA_2.0/epitopes_prediction/SEMA_1D_weigths/sema_1d_ESM2_2_3B.pth 
+wget -O sema_1d_ESM2_3_3B.pth https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru/SEMA_2.0/epitopes_prediction/SEMA_1D_weigths/sema_1d_ESM2_3_3B.pth 
+wget -O sema_1d_ESM2_4_3B.pth https://bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru/SEMA_2.0/epitopes_prediction/SEMA_1D_weigths/sema_1d_ESM2_4_3B.pth 
 ```
    
 or SEMA-3D:
